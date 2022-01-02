@@ -54,16 +54,16 @@
 ## KEXT
 | KEXT                        | 说明                  | 必备 | 可选 |
 | --------------------------- | --------------------- | ---- | ---- |
-| ApplePS2SmartTouchPad.kext  | 触摸板和键盘            |  √    |    |
-| CPUFriend.kext              | CPU管理。              |  √    |     |
-| FakePCIID_XHCIMux.kext      | 1E31蓝牙USB控制器       |        | √    |
+| ApplePS2SmartTouchPad.kext  | 触摸板和键盘            |  √   |      |
+| AtherosE2200Ethernet.kext   | 有线网卡驱动            |      |   √  |
+| CPUFriend.kext              | CPU管理。              |  √   |      |
+| FakePCIID_XHCIMux.kext      | 1E31蓝牙USB控制器       |      | √    |
 | FakePCIID.kext              | 上依赖                 |      | √    |
 | HibernationFixup.kext       | 修复睡眠               | √    |      |
 | IntelBluetoothFirmware.kext | 蓝牙框架               | √    |      |
 | IntelBluetoothInjector.kext | 蓝牙驱动               | √    |      |
-| itlwm.kext                  | 无线网卡驱动            |     |   √   |
+| itlwm.kext                  | 无线网卡驱动            |      |   √  |
 | Lilu.kext                   | 驱动扩展库(超重要)      | √    |      |
-| RealtekRTL8111.kext         | 有线网卡驱动            |      |   √   |
 | SMCBatteryManager.kext      | SMC电池                | √    |      |
 | SMCProcessor.kext           | SMC处理器              | √    |      |
 | SMCSuperIO.kext             | SMC风扇                | √    |      |
