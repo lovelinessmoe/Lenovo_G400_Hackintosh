@@ -95,7 +95,7 @@
 						AQAAAA==
 						</data>
 						<key>portType</key>
-						<integer>3</integer>
+						<integer>0</integer>
 					</dict>
 					<key>HP12</key>
 					<dict>
@@ -106,7 +106,7 @@
 						AgAAAA==
 						</data>
 						<key>portType</key>
-						<integer>3</integer>
+						<integer>0</integer>
 					</dict>
 					<key>HP14</key>
 					<dict>
@@ -203,8 +203,6 @@
 					</dict>
 					<key>HP23</key>
 					<dict>
-						<key>Comment</key>
-						<string></string>
 						<key>name</key>
 						<string>HP23</string>
 						<key>port</key>
@@ -223,7 +221,7 @@
 						BAAAAA==
 						</data>
 						<key>portType</key>
-						<integer>255</integer>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>

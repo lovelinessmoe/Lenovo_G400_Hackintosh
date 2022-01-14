@@ -47,30 +47,33 @@
 
 8. 摄像头
 
+8. 读卡器
+
 ## 无法实现
 
 1. 睡眠未测试，有可能出现睡死的情况
 
 ## KEXT
-| KEXT                        | 说明                  | 必备 | 可选 |
-| --------------------------- | --------------------- | ---- | ---- |
-| ApplePS2SmartTouchPad.kext  | 触摸板和键盘            |  √   |      |
-| AtherosE2200Ethernet.kext   | 有线网卡驱动            |      |   √  |
-| CPUFriend.kext              | CPU管理。              |  √   |      |
-| FakePCIID_XHCIMux.kext      | 1E31蓝牙USB控制器       |      | √    |
-| FakePCIID.kext              | 上依赖                 |      | √    |
-| HibernationFixup.kext       | 修复睡眠               | √    |      |
-| IntelBluetoothFirmware.kext | 蓝牙框架               | √    |      |
-| IntelBluetoothInjector.kext | 蓝牙驱动               | √    |      |
-| itlwm.kext                  | 无线网卡驱动            |      |   √  |
-| Lilu.kext                   | 驱动扩展库(超重要)      | √    |      |
-| SMCBatteryManager.kext      | SMC电池                | √    |      |
-| SMCProcessor.kext           | SMC处理器              | √    |      |
-| SMCSuperIO.kext             | SMC风扇                | √    |      |
-| USBPorts.kext               | USB定制                | √    |      |
-| VirtualSMC.kext             | SMC(超重要)            | √    |      |
-| VoodooHDA.kext              | 声卡驱动               |      |   √  |
-| WhateverGreen.kext          | 核显驱动               | √    |      |
+| KEXT                        | 说明              
+| --------------------------- | ----------------
+| ApplePS2SmartTouchPad.kext  | 触摸板和键盘          
+| AtherosE2200Ethernet.kext   | 有线网卡驱动          
+| CPUFriend.kext              | CPU管理。          
+| FakePCIID_XHCIMux.kext      | 1E31蓝牙USB控制器    
+| FakePCIID.kext              | 上依赖             
+| HibernationFixup.kext       | 修复睡眠            
+| IntelBluetoothFirmware.kext | 蓝牙框架            
+| IntelBluetoothInjector.kext | 蓝牙驱动            
+| itlwm.kext                  | 无线网卡驱动          
+| Lilu.kext                   | 驱动扩展库(超重要)
+| RealtekCardReader.kext      | SD卡驱动
+| SMCBatteryManager.kext      | SMC电池           
+| SMCProcessor.kext           | SMC处理器          
+| SMCSuperIO.kext             | SMC风扇           
+| USBPorts.kext               | USB定制           
+| VirtualSMC.kext             | SMC(超重要)        
+| VoodooHDA.kext              | 声卡驱动            
+| WhateverGreen.kext          | 核显驱动            
 
 
 ## 鸣谢
@@ -79,3 +82,4 @@
 - [Bat.bat](https://github.com/williambj1) 开发的 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 和 [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
 - [acidanthera](https://github.com/acidanthera) 开发的 [Lilu](https://github.com/acidanthera/Lilu) 和 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) 和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen) 
 - [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
+- [0xFireWolf](https://github.com/0xFireWolf) 开发的 [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) 
